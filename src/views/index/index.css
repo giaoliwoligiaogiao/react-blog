@@ -1,0 +1,48 @@
+.indexBox{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../../static/img/bg2.jpg);
+    height: 100%;
+}
+.indexBox .indexNav{
+    height: 56px;
+    font-size: 28px;
+    background-color: rgba(256, 256, 256, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.indexBox .indexNav li{
+    margin-right: 30px;
+    height: 100%;
+   
+    line-height: 56px;
+}
+
+.indexBox .indexNav li:last-of-type{
+    margin: 0;
+}
+.indexBox .indexNav li a{
+    padding:0 30px;
+    display: block;
+    color: transparent;
+    /* background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear; */
+    -webkit-text-stroke:1px #DCD7BE;
+    -webkit-text-fill-color: #E4DFC8;
+    /* #DCD7BE
+    #E4DFC8 */
+}
+@-webkit-keyframes hue {
+    from {
+      -webkit-filter: hue-rotate(0deg);
+    }
+  
+    to {
+      -webkit-filter: hue-rotate(-360deg);
+    }
+  }
+  
